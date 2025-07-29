@@ -19,12 +19,12 @@ I’m passionate about solving real-world problems through data. From modeling o
 
 ## 📌 Featured Projects
 
-### 🔧 [Rod Pump Failure Prediction](https://github.com/your-repo-link)
+### 🔧 [Rod Pump Failure Prediction](https://github.com/chaconnb/NSC325_ROADFAIL_TEAM2.git)
 Used Random Forest & XGBoost to classify failure types and predict lifetimes on real oilfield data (n=1,977).  
 → Reached 91.3% recall on binary classification.  
 → Featured engineering: log transforms, pressure ratios, Monte Carlo simulation.
 
-### 📈 [KBO Baseball Stats Analysis & Shiny App](https://github.com/your-repo-link)
+### 📈 [KBO Baseball Stats Analysis & Shiny App]()
 Developed an interactive R Shiny app visualizing KBO player statistics and their correlation with team success.  
 → Used ggplot2, dplyr, and Shiny dashboard components for UI.
 
@@ -33,7 +33,6 @@ Developed an interactive R Shiny app visualizing KBO player statistics and their
 ## 📚 Certificates & Recognition
 
 - 🏅 Cornell Tech — Break Through Tech AI Fellowship (2025–2026)  
-- 📜 [Machine Learning Foundations Certificate (eCornell)](https://your-certificate-link.com)
 
 ---
 
