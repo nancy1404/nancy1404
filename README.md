@@ -82,6 +82,18 @@ Right now, I’m building end-to-end workflows — from messy CSVs to models, an
 
 ---
 
+### [📚 Book Review Sentiment Classifier (NLP)](https://github.com/nancy1404/book-review-sentiment-classifier) 
+*Text classification + model comparison*
+
+- Built a binary classifier to predict whether a **book review is positive or negative** using TF-IDF features  
+- Compared a **logistic regression baseline** to a **neural network**, finding that the simpler model generalized better  
+- Achieved **≈81.5% test accuracy** with logistic regression vs. ≈76% for the neural network (classic overfitting pattern)  
+- Framed the project from a **customer experience / product** angle (e.g., how platforms like Amazon might use this)
+
+> Tools: Python, scikit-learn, TensorFlow/Keras, pandas, NLP, TF-IDF
+
+---
+
 ## 🌱 What I’m Learning / Working On
 
 - Designing ML pipelines that are **reproducible and explainable**, not just accurate  
