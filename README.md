@@ -60,14 +60,14 @@ Right now, I’m building end-to-end workflows — from messy CSVs to models, an
 
 ## 🚀 Other Projects
 
-### ⚾ KBO Baseball Stats Analysis & Shiny App
+### [⚾ KBO Baseball Stats Analysis & Shiny App](https://github.com/nancy1404/kbo-baseball-stats-app)
 *Sports analytics + interactive visualization*
 
-- Built an R Shiny app to explore **KBO player statistics** and their relationship to team success  
-- Used `dplyr`, `ggplot2`, and Shiny components to create a **fan- and analyst-friendly** interface  
-- Focused on asking “front-office style” questions about player value and team construction  
+- Built an interactive **R Shiny app** to explore 2024 **KBO hitter statistics** and their relationship to team performance  
+- Created an EDA report in R Markdown covering **OPS, BA, OBP, HR**, and team-level comparisons  
+- Designed the app as a **fan- and analyst-friendly** tool: filter players, view distributions, run bivariate plots, and inspect individual hitters’ stats  
 
-> Tools: R, Shiny, dplyr, ggplot2  
+> Tools: R, Shiny, dplyr, ggplot2, tidyr, shinythemes, shinyjs, colourpicker
 
 ---
 
