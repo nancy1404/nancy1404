@@ -23,7 +23,18 @@ Right now, I’m building end-to-end workflows — from messy CSVs to models, an
 - Modeled posting scenarios to suggest strategies that could improve **click-through and watch-time**  
 - Practiced “analytics as a product”: reproducible notebooks, clean repo, and clear takeaways for content teams  
 
-> **Tools:** Python, pandas, scikit-learn, xgboost, Jupyter, Git/GitHub  
+> **Tools:** Python, pandas, scikit-learn, xgboost, Jupyter, Git/GitHub
+
+---
+
+### 🔧 [Rod Pump Failure Analysis (NSC 325 x ConocoPhillips)](https://github.com/nancy1404/rod-pump-failure)
+*Industry-collaborative ML project on ~2,600 wells (NSC 325: Inventors Program – Energy)*
+
+- Cleaned and engineered **50+ operational, mechanical, and fluid features** from ConocoPhillips well data (raw data private; pipeline open-sourced in the repo)  
+- Trained **logistic regression and random forest** models to predict rod pump failure, focusing on **high recall on the failure class** while keeping false alarms manageable  
+- Ran **bootstrapping and Monte Carlo simulations** to quantify model uncertainty and built simple **risk + cost scenarios** to show how thresholds affect downtime and maintenance spend  
+
+> **Tools:** Python, pandas, scikit-learn, imbalanced-learn, Jupyter, Git/GitHub  
 
 ---
 
@@ -48,18 +59,6 @@ Right now, I’m building end-to-end workflows — from messy CSVs to models, an
 ---
 
 ## 🚀 Other Projects
-
-### 🔧 [Rod Pump Failure Analysis (NSC 325 x ConocoPhillips)](https://github.com/nancy1404/rod-pump-failure)
-*Industry-collaborative ML project on ~2,600 wells (NSC 325: Inventors Program – Energy)*
-
-- Cleaned and engineered **50+ operational, mechanical, and fluid features** from ConocoPhillips well data (raw data private; pipeline open-sourced in the repo)  
-- Trained **logistic regression and random forest** models to predict rod pump failure, focusing on **high recall on the failure class** while keeping false alarms manageable  
-- Ran **bootstrapping and Monte Carlo simulations** to quantify model uncertainty and built simple **risk + cost scenarios** to show how thresholds affect downtime and maintenance spend  
-
-> **Tools:** Python, pandas, scikit-learn, imbalanced-learn, Jupyter, Git/GitHub  
-
-
----
 
 ### ⚾ KBO Baseball Stats Analysis & Shiny App
 *Sports analytics + interactive visualization*
