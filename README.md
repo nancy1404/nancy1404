@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Nancy (Nakyung) Kwak!
 
-🎓 Undergraduate **Statistics & Data Science** student at UT Austin  
+🎓 2nd-year **Statistics & Data Science** student at UT Austin  
 🤖 **Break Through Tech AI Fellow** @ Cornell Tech (AI/ML for real-world impact)  
 📈 Interested in **business & marketing analytics, sports analytics, and operations**  
 
@@ -128,15 +128,9 @@ Outside of coursework, I care a lot about **access, mentorship, and community-bu
 
 ---
 
-## 📊 GitHub Stats
+## ✨ Fun Facts
 
-![Nancy's GitHub stats](https://github-readme-stats.vercel.app/api?username=nancy1404&show_icons=true)
-
----
-
-## ✨ Fun Fact
-
-When I’m not debugging models, I’m probably:  
-- watching baseball and thinking about **win probabilities**,  
-- writing short web-drama scripts, or  
-- trying to convince friends that data and storytelling are secretly the same skill 🙂
+- Baseball analytics was my gateway into statistics, and I still check box scores like they’re emails.
+- I love building small systems for people—mentoring programs, volunteer groups, anything that helps someone feel less lost.
+- When I’m tired of code, I switch to writing short web dramas or journaling in Korean.
+- I used to play percussion and drumline, so I still count everything in 8s.
