@@ -13,17 +13,18 @@ Right now, I’m building end-to-end workflows — from messy CSVs to models, an
 
 ---
 
-## 🎯 Featured Project — [Google YouTube Virality](https://github.com/BrendaG04/Google1D.git)
+## 🎯 Featured Project — [Global YouTube Trending & Virality](https://github.com/nancy1404/youtube-trending-analysis)
 
-**YouTube Video Virality & Longevity (Break Through Tech AI Fellowship)**  
-*Team project on ~2.9M rows across 11 countries*
+**YouTube Video Virality & Trending Speed (Break Through Tech AI Studio – Google Challenge)**  
+*End-to-end ML project on ~2.9M rows across 11 countries*
 
-- Built a **YouTube virality pipeline** to study how engagement and metadata drive trending outcomes  
-- Engineered features like views-per-day and engagement ratios for cross-country comparison  
-- Modeled posting scenarios to suggest strategies that could improve **click-through and watch-time**  
-- Practiced “analytics as a product”: reproducible notebooks, clean repo, and clear takeaways for content teams  
+- Analyzed **YouTube Trending data from 11 countries** to understand what drives virality and how fast videos hit Trending  
+- Engineered **time-to-trending** and **engagement-velocity** features (likes/hour, comments/hour, engagement/hour) for per-country pipelines  
+- Trained **classification models** (Logistic Regression, Random Forest, XGBoost) to predict whether a video becomes **top 10% “viral”**, and **regression models** to estimate days-to-trending  
+- Found that **“velocity > raw counts”** – early engagement rate is more predictive than raw view totals, with clear differences across markets (US, KR, JP, etc.)  
+- Treated the work like an analytics product: **reproducible notebooks, documented repo, and a slide deck** aimed at content/marketing stakeholders  
 
-> **Tools:** Python, pandas, scikit-learn, xgboost, Jupyter, Git/GitHub
+> **Tools:** Python, pandas, NumPy, scikit-learn, XGBoost, matplotlib, seaborn, Jupyter, Git/GitHub
 
 ---
 
