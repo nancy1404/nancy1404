@@ -1,8 +1,9 @@
 # 👋 Hi, I'm Nancy (Nakyung) Kwak!
 
-🎓 2nd-year **Statistics & Data Science** student at UT Austin  
-🤖 **Break Through Tech AI Fellow** @ Cornell Tech (AI/ML for real-world impact)  
-📈 Interested in **business & marketing analytics, sports analytics, and operations**  
+🎓 2nd-year **Statistics & Data Science** student at UT Austin (Class of 2028)  
+🤖 **Break Through Tech AI Fellow** @ Cornell Tech  
+🧠 Selected for Break Through Tech **Agentic AI Specialization** (Top 50)  
+📈 Interested in **business & marketing analytics, sports analytics, and agentic AI**
 
 I like using data to answer questions that actually change decisions:  
 - Which pumps should engineers fix *first* to minimize downtime?  
@@ -61,6 +62,17 @@ Right now, I’m building end-to-end workflows — from messy CSVs to models, an
 
 ## 🚀 Other Projects
 
+### [☕ CoffeeKing Expansion Playbook (Yelp → SQLite → SQL Insights)](https://github.com/nancy1404/Coffeeking-Yelp.git)
+*Consulting-style market-entry analysis (SQL Capstone)*
+
+- Built a SQLite database from the Yelp Open Dataset (JSON → SQLite) and ran end-to-end SQL analysis  
+- Created an explainable “Visibility Score” *(log(1 + reviews) × rating)* and identified top 10% “winners”  
+- Produced city × concept recommendations (e.g., coffee+alcohol vs. market/retail) with small-sample flags to avoid overconfidence  
+
+> Tools: SQL, SQLite, Python, Jupyter
+
+---
+
 ### [⚾ KBO Baseball Stats Analysis & Shiny App](https://github.com/nancy1404/kbo-baseball-stats-app)
 *Sports analytics + interactive visualization*
 
@@ -99,7 +111,8 @@ Right now, I’m building end-to-end workflows — from messy CSVs to models, an
 
 - Designing ML pipelines that are **reproducible and explainable**, not just accurate  
 - Getting better at **storytelling with data** for non-technical audiences (slides, written reports, and live presentations)  
-- Exploring more structured **business analytics**: KPIs, revenue/retention metrics, and marketing experiments  
+- Exploring more structured **business analytics**: KPIs, revenue/retention metrics, and marketing experiments
+- Exploring agentic AI: tool-using workflows, evaluation, and building reliable end-to-end assistants
 
 If it’s about connecting data → decisions → real impact, I’m probably interested.
 
