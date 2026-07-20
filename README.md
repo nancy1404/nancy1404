@@ -1,162 +1,207 @@
-# 👋 Hi, I'm Nancy (Nakyung) Kwak!
+<div align="center">
 
-🎓 2nd-year **Statistics & Data Science** student at UT Austin (Class of 2028)  
-🤖 **Break Through Tech AI Fellow** @ Cornell Tech  
-🧠 Selected for Break Through Tech **Agentic AI Specialization** (Top 50)  
-📈 Interested in **business & marketing analytics, sports analytics, and agentic AI**
+# Hi, I’m Nancy 👋
 
-I like using data to answer questions that actually change decisions:  
-- Which pumps should engineers fix *first* to minimize downtime?  
-- How should a team think about player performance after switching leagues?  
-- What kind of content strategy drives better engagement and retention?
+### Statistics & Data Science @ UT Austin
 
-Right now, I’m building end-to-end workflows — from messy CSVs to models, and then to **clear recommendations** for non-technical stakeholders.
+**Building analytics and AI tools for real decisions.**
 
----
+*Data, sports, and AI—usually in the same project.*
 
-## 🎯 Featured Project — [Global YouTube Trending & Virality](https://github.com/nancy1404/youtube-trending-analysis)
+[LinkedIn](https://www.linkedin.com/in/nakyungnancy) · [Email](mailto:nancy.kwak@utexas.edu)
 
-**YouTube Video Virality & Trending Speed (Break Through Tech AI Studio – Google Challenge)**  
-*End-to-end ML project on ~2.9M rows across 11 countries*
-
-- Analyzed **YouTube Trending data from 11 countries** to understand what drives virality and how fast videos hit Trending  
-- Engineered **time-to-trending** and **engagement-velocity** features (likes/hour, comments/hour, engagement/hour) for per-country pipelines  
-- Trained **classification models** (Logistic Regression, Random Forest, XGBoost) to predict whether a video becomes **top 10% “viral”**, and **regression models** to estimate days-to-trending  
-- Found that **“velocity > raw counts”** – early engagement rate is more predictive than raw view totals, with clear differences across markets (US, KR, JP, etc.)  
-- Treated the work like an analytics product: **reproducible notebooks, documented repo, and a slide deck** aimed at content/marketing stakeholders  
-
-> **Tools:** Python, pandas, NumPy, scikit-learn, XGBoost, matplotlib, seaborn, Jupyter, Git/GitHub
+</div>
 
 ---
 
-### 🔧 [Rod Pump Failure Analysis (NSC 325 x ConocoPhillips)](https://github.com/nancy1404/rod-pump-failure)
-*Industry-collaborative ML project on ~2,600 wells (NSC 325: Inventors Program – Energy)*
+## A little about me
 
-- Cleaned and engineered **50+ operational, mechanical, and fluid features** from ConocoPhillips well data (raw data private; pipeline open-sourced in the repo)  
-- Trained **logistic regression and random forest** models to predict rod pump failure, focusing on **high recall on the failure class** while keeping false alarms manageable  
-- Ran **bootstrapping and Monte Carlo simulations** to quantify model uncertainty and built simple **risk + cost scenarios** to show how thresholds affect downtime and maintenance spend  
+Baseball first drew me to statistics, but I stayed because data can shape decisions far beyond the scoreboard.
 
-> **Tools:** Python, pandas, scikit-learn, imbalanced-learn, Jupyter, Git/GitHub  
+I’m interested in the moments where **performance, timing, risk, and human judgment** intersect. Whether I’m studying how players adjust across leagues, building an AI-assisted sports tool, or exploring space-weather data, I care about making complex information **understandable, useful, and honest about its limits**.
 
----
-
-## 🛠 Tech Stack
-
-**Languages**  
-- Python, R, SQL  
-
-**Data & ML**  
-- pandas, NumPy, scikit-learn, xgboost  
-- Regression & classification, feature engineering, model evaluation  
-- Bootstrapping, basic simulation, exploratory data analysis  
-
-**Visualization & Tools**  
-- Matplotlib, Seaborn, ggplot2  
-- Jupyter, RStudio, VS Code, Excel  
-
-**Other**  
-- Git & GitHub, basic dashboarding/reporting  
-- Experience framing results in **cost–benefit / scenario analysis** terms  
+I’m currently exploring sports analytics, applied statistics, and human-centered tools that support—not replace—human judgment.
 
 ---
 
-## 🚀 Other Projects
+## ☀️ Currently building
 
-### [☕ CoffeeKing Expansion Playbook (Yelp → SQLite → SQL Insights)](https://github.com/nancy1404/Coffeeking-Yelp.git)
-*Consulting-style market-entry analysis (SQL Capstone)*
+### [Predicting Geomagnetic Storms from Solar Activity](https://github.com/anothergrind/geomagnetic-storm-predictor)
 
-- Built a SQLite database from the Yelp Open Dataset (JSON → SQLite) and ran end-to-end SQL analysis  
-- Created an explainable “Visibility Score” *(log(1 + reviews) × rating)* and identified top 10% “winners”  
-- Produced city × concept recommendations (e.g., coffee+alcohol vs. market/retail) with small-sample flags to avoid overconfidence  
+**Can solar-wind conditions and recorded space-weather events help identify patterns associated with geomagnetic storms?**
 
-> Tools: SQL, SQLite, Python, Jupyter
+I’m working with an AI4ALL Ignite team to analyze NASA solar-wind, geomagnetic-index, solar-flare, and DONKI event data.
 
----
+* Auditing NASA OMNI measurements for missing values, anomalies, distributions, and temporal coverage
+* Preparing time-dependent scientific data for feature engineering and later modeling
 
-### [⚾ KBO Baseball Stats Analysis & Shiny App](https://github.com/nancy1404/kbo-baseball-stats-app)
-*Sports analytics + interactive visualization*
+`Python` · `pandas` · `NumPy` · `Jupyter` · `matplotlib` · `Git/GitHub`
 
-- Built an interactive **R Shiny app** to explore 2024 **KBO hitter statistics** and their relationship to team performance  
-- Created an EDA report in R Markdown covering **OPS, BA, OBP, HR**, and team-level comparisons  
-- Designed the app as a **fan- and analyst-friendly** tool: filter players, view distributions, run bivariate plots, and inspect individual hitters’ stats  
-
-> Tools: R, Shiny, dplyr, ggplot2, tidyr, shinythemes, shinyjs, colourpicker
+> 🚧 In progress — the repository will continue to evolve as we integrate datasets, develop models, and prepare our final symposium project.
 
 ---
 
-### 📊 Causal Performance Study — NPB Hitters Adjusting to MLB
-*Course project for SDS 375 Sports Analytics*
+## 🏟️ Selected work
 
-- Modeled how switching from **NPB to MLB** affects hitters’ wOBA over their first two MLB seasons  
-- Used linear and ridge regression with **age covariates and aging curves** to separate league effects from natural aging  
-- Framed insights for **front-office decisions**: realistic expectations, contract planning, and playing time  
+### 🏀 [EZLineup: AI-Powered NBA Fantasy Lineup Optimizer](https://github.com/Shi-web/EZLineup)
 
-> Tools: R, regression modeling, sports analytics  
+**Build a five-player fantasy lineup under budget—and understand why each player was selected.**
 
----
+* Combined NBA statistics, injury search, fantasy scoring, position-constrained optimization, and Gemini explanations in a four-person capstone
+* Evaluated the system across 13 normal, edge, and adversarial cases, reporting 11 successful outcomes and identifying external injury-data reliability as a key limitation
 
-### [📚 Book Review Sentiment Classifier (NLP)](https://github.com/nancy1404/book-review-sentiment-classifier) 
-*Text classification + model comparison*
+`Python` · `Streamlit` · `FastAPI` · `nba_api` · `Tavily` · `Gemini` · `LangSmith`
 
-- Built a binary classifier to predict whether a **book review is positive or negative** using TF-IDF features  
-- Compared a **logistic regression baseline** to a **neural network**, finding that the simpler model generalized better  
-- Achieved **≈81.5% test accuracy** with logistic regression vs. ≈76% for the neural network (classic overfitting pattern)  
-- Framed the project from a **customer experience / product** angle (e.g., how platforms like Amazon might use this)
-
-> Tools: Python, scikit-learn, TensorFlow/Keras, pandas, NLP, TF-IDF
+[Repository](https://github.com/Shi-web/EZLineup) · [Live app](https://ezlineup.streamlit.app)
 
 ---
 
-## 🌱 What I’m Learning / Working On
+### 📺 [Predicting YouTube Virality Across 11 Countries](https://github.com/nancy1404/youtube-trending-analysis)
 
-- Designing ML pipelines that are **reproducible and explainable**, not just accurate  
-- Getting better at **storytelling with data** for non-technical audiences (slides, written reports, and live presentations)  
-- Exploring more structured **business analytics**: KPIs, revenue/retention metrics, and marketing experiments
-- Exploring agentic AI: tool-using workflows, evaluation, and building reliable end-to-end assistants
+**What distinguishes highly viewed trending videos—and do those patterns change across markets?**
 
-If it’s about connecting data → decisions → real impact, I’m probably interested.
+* Analyzed **2.9M+ YouTube trending-video records across 11 countries** with a seven-person Break Through Tech AI Studio team
+* Built reusable preprocessing and modeling workflows, compared classification and regression approaches, and conducted feature-importance and error analyses
 
----
+`Python` · `pandas` · `scikit-learn` · `XGBoost` · `Jupyter` · `matplotlib`
 
-## 🤝 Leadership & Community
-
-Outside of coursework, I care a lot about **access, mentorship, and community-building**:
-
-- **Undergraduate Korean Association – Professional Development Chair**  
-  - Run alumni & recruiting events and manage a mentorship pipeline for ~200 students  
-
-- **Natural Sciences Council – Student–Faculty Committee Member**  
-  - Represent SDS majors and co-founded a peer-led Coding Lab for introductory CS/SDS courses  
-
-- **Student Engineers Educating Kids (SEEK) – Program Officer**  
-  - Coordinate a 9-week STEM workshop series at a Title I school  
-
-- **WiSTEM – Outreach Ambassador & STEM Girl Day Coordinator**  
-  - Support large-scale outreach events (e.g., Girl Day) bringing thousands of K–8 students and families to campus  
-
-- **Family Volunteer Group – Founder**  
-  - Started a 22-family volunteer group partnering with a Lifelong Education Center in Seoul, supporting students with developmental disabilities  
+[Explore the analysis](https://github.com/nancy1404/youtube-trending-analysis)
 
 ---
 
-## 🏅 Selected Programs & Honors
+### ⚾ [NPB/KBO Hitters Adjusting to MLB](https://github.com/nancy1404/SDS375_TermProject)
 
-- **Break Through Tech AI Fellow (Cornell Tech)** – 12-month applied AI/ML program  
-- **Machine Learning Foundations (Cornell Tech)** – preparatory coursework for the fellowship  
-- **KAAGA Scholarship** – leadership & community impact scholarship  
+**What happens to a hitter’s offensive production after moving from professional baseball in Japan or Korea to MLB?**
 
----
+* Integrated cross-league baseball data and engineered wOBA, ISO, strikeout-rate, and walk-rate measures
+* Found a descriptive average Year-1 wOBA decline of approximately **0.085** among five matched hitters, while treating the small sample as exploratory rather than causal
 
-## 📫 How to Reach Me
+`R` · `R Markdown` · `tidyverse` · `ggplot2` · `OLS regression` · `Sabermetrics`
 
-- 💼 LinkedIn: [linkedin.com/in/nakyungnancy](https://linkedin.com/in/nakyungnancy)  
-- ✉️ Email: **nancy.kwak@utexas.edu**  
+[Read the project documentation](https://github.com/nancy1404/SDS375_TermProject)
 
 ---
 
-## ✨ Fun Facts
+### ☕ [CoffeeKing Yelp Market Entry Analysis](https://github.com/nancy1404/Coffeeking-Yelp)
 
-- Baseball analytics was my gateway into statistics, and I still check box scores like they’re emails.
-- I love building small systems for people—mentoring programs, volunteer groups, anything that helps someone feel less lost.
-- When I’m tired of code, I switch to writing short web dramas or journaling in Korean.
-- I used to play percussion and drumline, so I still count everything in 8s.
+**Where could a fictional coffee brand test its next concept—and what evidence would support that recommendation?**
+
+* Filtered 150,346 Yelp businesses to 8,509 coffee-related businesses and loaded **630K+ reviews** into SQLite
+* Used SQL joins, CTEs, aggregations, and window functions to create city × concept recommendations with small-sample safeguards
+
+`SQL` · `SQLite` · `Python` · `pandas` · `ETL` · `Analytics`
+
+[View the launch playbook](https://github.com/nancy1404/Coffeeking-Yelp)
+
+---
+
+## 📊 By the numbers
+
+<div align="center">
+
+|    **2.9M+**    |       **11**       |   **630K+**  |        **13**       |        **106**       |
+| :-------------: | :----------------: | :----------: | :-----------------: | :------------------: |
+| YouTube records | Countries analyzed | Yelp reviews | AI evaluation cases | KBO hitters explored |
+
+</div>
+
+### GitHub activity
+
+<div align="center">
+
+<img
+src="https://github-readme-stats.vercel.app/api?username=nancy1404&show_icons=true&hide_rank=true&hide_border=true&theme=transparent"
+alt="Nancy Kwak's GitHub statistics"
+/>
+
+</div>
+
+---
+
+<details>
+<summary><strong>🧩 More projects</strong></summary>
+
+<br>
+
+### 🔧 [Rod Pump Failure Analysis](https://github.com/nancy1404/rod-pump-failure)
+
+Applied machine learning project using an anonymized ConocoPhillips-connected dataset of approximately 2,600 wells. Explored classification, ensemble modeling, regression, and uncertainty analysis for preventive-maintenance decision support.
+
+---
+
+### ⚾ [2024 KBO Hitter Stats Explorer](https://github.com/nancy1404/kbo-baseball-stats-app)
+
+My first major R and statistics project: an interactive Shiny dashboard and R Markdown report exploring 106 hitters across all 10 KBO teams.
+
+---
+
+### 🗂️ [AI-Assisted Job Application Tracker](https://github.com/nancy1404/job-application-tracker)
+
+A solo full-stack learning project featuring authenticated CRUD workflows, relational database design, form validation, and optional AI-generated resume-to-role insights.
+
+---
+
+### 📚 [Book Review Sentiment Classifier](https://github.com/nancy1404/book-review-sentiment-classifier)
+
+Compared a TF-IDF Logistic Regression baseline with a neural network for review sentiment classification, finding that the simpler model generalized more effectively.
+
+---
+
+### 🏅 [Sports Performance Analytics Coursework Portfolio](https://github.com/nancy1404/Sports_Analytics_Specialization)
+
+Completed notebooks spanning baseball, basketball, hockey, soccer, cricket, betting markets, regression, classification, and model evaluation.
+
+---
+
+### 🐍 [Baseball Sports Stats Tracker](https://github.com/nancy1404/CS313E_TermProject)
+
+A Python software-design project using object-oriented programming, recursive merge sort, binary search, heaps, and CSV-based baseball data.
+
+</details>
+
+---
+
+## 🧰 Toolkit
+
+| Area                  | Tools and methods                                                                                |
+| --------------------- | ------------------------------------------------------------------------------------------------ |
+| **Programming**       | Python, R, SQL, TypeScript                                                                       |
+| **Data and modeling** | pandas, NumPy, tidyverse, scikit-learn, XGBoost, regression, classification, feature engineering |
+| **Evaluation**        | ROC-AUC, precision, recall, F1, error analysis, bootstrapping, Monte Carlo simulation            |
+| **Data products**     | Streamlit, R Shiny, FastAPI, React, Next.js                                                      |
+| **AI and APIs**       | Gemini, OpenAI SDK, Tavily, LangSmith, structured LLM evaluation                                 |
+| **Data and workflow** | SQLite, PostgreSQL, Prisma, Jupyter, R Markdown, Git, GitHub                                     |
+
+I’m still learning, and I try to distinguish between tools I have used in projects and areas where I’m continuing to build deeper expertise.
+
+---
+
+## Beyond the code
+
+I enjoy building communities and systems that help people feel less lost.
+
+At UT Austin, I have represented Statistics & Data Science students, led mentorship and professional-development programming for Korean students, supported STEM outreach for younger learners, and co-founded a student community centered on Korean professional baseball.
+
+Across those experiences, I keep returning to the same idea: **good decisions and long-term growth depend not only on talent or information, but also on timing, access, and thoughtful support.**
+
+---
+
+## 💬 Ask me about
+
+* ⚾ Why baseball was my gateway into statistics
+* 🏀 What makes an AI sports recommendation trustworthy
+* 🌌 The unusual measurements hiding inside space-weather datasets
+* 🥁 Why I still count things in groups of eight
+* ✍️ The Korean web-drama scenes and journal entries hiding in my notes
+
+---
+
+<div align="center">
+
+### Let’s connect
+
+I’m always happy to talk about data, sports, AI, research, or an interesting project idea.
+
+[LinkedIn](https://www.linkedin.com/in/nakyungnancy) · [GitHub](https://github.com/nancy1404) · [Email](mailto:nancy.kwak@utexas.edu)
+
+</div>
