@@ -82,16 +82,19 @@ I’m working with an AI4ALL Ignite team to analyze NASA solar-wind, geomagnetic
 
 ---
 
-### ☕ [CoffeeKing Yelp Market Entry Analysis](https://github.com/nancy1404/Coffeeking-Yelp)
+### 🔧 [Rod Pump Failure Analysis](https://github.com/nancy1404/rod-pump-failure)
 
-**Where could a fictional coffee brand test its next concept—and what evidence would support that recommendation?**
+**Can machine learning help engineers identify pump-failure risk before downtime becomes more costly?**
 
-* Filtered 150,346 Yelp businesses to 8,509 coffee-related businesses and loaded **630K+ reviews** into SQLite
-* Used SQL joins, CTEs, aggregations, and window functions to create city × concept recommendations with small-sample safeguards
+In a four-person UT Austin applied ML practicum connected with ConocoPhillips, I worked with an anonymized dataset covering **2,592 wells and 54 operational, mechanical, and production features**.
 
-`SQL` · `SQLite` · `Python` · `pandas` · `ETL` · `Analytics`
+* Built data-cleaning, feature-engineering, classification, ensemble, regression, and uncertainty-analysis workflows
+* Achieved **95.4% failure-class recall** with XGBoost and evaluated model stability through 100-sample bootstrap and Monte Carlo experiments
+* Contributed across technical analysis, scientific-style manuscript writing, presentation design, and communication with mixed technical and industry audiences
 
-[View the launch playbook](https://github.com/nancy1404/Coffeeking-Yelp)
+`Python` · `pandas` · `scikit-learn` · `XGBoost` · `Random Forest` · `SMOTE` · `Bootstrapping`
+
+[Explore the project](https://github.com/nancy1404/rod-pump-failure)
 
 ---
 
@@ -99,20 +102,9 @@ I’m working with an AI4ALL Ignite team to analyze NASA solar-wind, geomagnetic
 
 <div align="center">
 
-|    **2.9M+**    |       **11**       |   **630K+**  |        **13**       |        **106**       |
-| :-------------: | :----------------: | :----------: | :-----------------: | :------------------: |
-| YouTube records | Countries analyzed | Yelp reviews | AI evaluation cases | KBO hitters explored |
-
-</div>
-
-### GitHub activity
-
-<div align="center">
-
-<img
-src="https://github-readme-stats.vercel.app/api?username=nancy1404&show_icons=true&hide_rank=true&hide_border=true&theme=transparent"
-alt="Nancy Kwak's GitHub statistics"
-/>
+|    **2.9M+**    |    **2,592**   |       **11**       |        **13**       |        **106**       |
+| :-------------: | :------------: | :----------------: | :-----------------: | :------------------: |
+| YouTube records | Wells analyzed | Countries analyzed | AI evaluation cases | KBO hitters explored |
 
 </div>
 
@@ -123,9 +115,9 @@ alt="Nancy Kwak's GitHub statistics"
 
 <br>
 
-### 🔧 [Rod Pump Failure Analysis](https://github.com/nancy1404/rod-pump-failure)
+### ☕ [CoffeeKing Yelp Market Entry Analysis](https://github.com/nancy1404/Coffeeking-Yelp)
 
-Applied machine learning project using an anonymized ConocoPhillips-connected dataset of approximately 2,600 wells. Explored classification, ensemble modeling, regression, and uncertainty analysis for preventive-maintenance decision support.
+A solo SQL analytics project that transformed Yelp business and review data into transparent city × concept recommendations for a fictional coffee brand.
 
 ---
 
